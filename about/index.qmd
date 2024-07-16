@@ -1,0 +1,34 @@
+---
+title: "Sarah Florig" # if using a built-in template, this title appears under your photo
+subtitle: Physician-Scientist Trainee,<br>University of Nebraska Medical Center
+image: media/profile.jpeg # path to my professional headshot
+image-alt: "Smiling woman with a light complexion, dark eyes, blone and brown long wavy hair parted in the middle, and wearing a light blue three-quarter sleeve shirt"
+toc: false  # disable table of contents for this page
+about:
+  template: broadside
+  image: media/profile.jpeg
+  links:
+    - icon: twitter
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sarahflorig/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sarahflorig/
+    - icon: github
+      text: GitHub
+      href: https://github.com/sarahflorig
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-6906-2689
+    - icon: envelope
+      text: Email
+      href: mailto:sflorig@unmc.edu
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+2 + 2
+```

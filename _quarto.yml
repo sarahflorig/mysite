@@ -3,18 +3,46 @@ project:
   output-dir: docs
 
 website:
-  title: "sarahflorig"
+  title: "Sarah Florig"
+  description: "Will eventually need to add my site description here." #"Researcher and data educator applying biomedical and spatial data science in ways that prioritize health equity."
+  # favicon: assets/silvia/img/logo_rounded.svg
+  page-navigation: true
+  back-to-top-navigation: true
+  twitter-card:
+    creator: "@SarahFlorig"
+    site: "@SarahFlorig"
+    card-style: summary_large_image
+
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    # logo: assets/silvia/img/logo_rounded.svg
+    right:
+      - text: About
+        aria-label: "About Me"
+        href: about/index.qmd
+      - text: Blog
+        aria-label: "Meeting People Where They R"
+        href: blog/index.qmd
+      - text: Talks
+        aria-label: "Invited Talks"
+        href: talk/index.qmd  
+      - text: Publications
+        aria-label: "Publications"
+        href: publication/index.qmd
+      - text: Projects
+        aria-label: "Project Portfolio"
+        href: project/index.qmd
+  page-footer:
+    background: light # or `dark`
+    left: © Copyright 2024, Sarah Florig
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://sarahflorig.github.io/mysite/){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme: 
+      - cosmo
+      - styles.scss
+    toc: false
+    page-layout: full
 
 editor: visual
 
